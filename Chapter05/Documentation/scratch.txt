@@ -1,13 +1,0 @@
-curl -u " b53df47c-8335-4f7f-834e-f53f0d323dc2":" BcMbbeYIvmX4" -F training_data=@industry.csv -F training_metadata="{\"language\":\"en\", \"name\":\"Industry2016\"}" "https://gateway.watsonplatform.net/natural-language-classifier/api/v1/classifiers" 
-
-{
-"classifier_id" : "90e7b7x198-nlc-33370",
-"name" : "Industry2016",
-"language" : "en",
-"created" : "2017-04-05T03:43:08.939Z",
-"url" : "https://gateway.watsonplatform.net/natural-language-classifier/api/v1/classifiers/90e7b7x198-nlc-33370",
-"status" : "Training",
-"status_description" : "The classifier instance is in its training phase, not yet ready to accept classify requests"
-}
-
-curl -u " b53df47c-8335-4f7f-834e-f53f0d323dc2":" BcMbbeYIvmX4" "https://gateway.watsonplatform.net/natural-language-classifier/api/v1/classifiers/90e7b7x198-nlc-33370"  
